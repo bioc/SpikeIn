@@ -1,6 +1,6 @@
 Package: SpikeIn
 Title: Affymetrix Spike-In Experiment Data
-Version: 1.3.0
+Version: 1.3.1
 Date: 2006-06-06
 Author: Rafael Irizarry <rafa@jhu.edu> 
 Description:  Contains the HGU133 and HGU95 spikein experiment data.
@@ -8,4 +8,3 @@ Maintainer: Rafael A. Irizarry <rafa@jhu.edu>
 License: LGPL
 Depends: R (>= 1.6), affy (>= 1.0)
 biocViews: ExperimentData
-Packaged: Thu Jun  8 15:36:40 2006; vcarey
