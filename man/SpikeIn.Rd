@@ -9,10 +9,13 @@
 data(SpikeIn95)
 data(SpikeIn133)
 }
-\format{\code{SpikeIn} is \code{\link[affy:ProbeSet-class]{ProbeSet}}
+\format{
+Both \code{SpikeIn95} and \code{SpikeIn133} are instances of
+the  \code{\link[affy:AffyBatch-class]{AffyBatch}}
   containing the 
   $PM$ and $MM$ intensities for a genes spiked in at different
-  concentrations. To see the spike-in concentrations use \code{pData}.}
+  concentrations. The spike-in concentrations used are
+ provided as ppart of the phenotypic data (e.g. \code{pData}).}
 \source{
 For more information see Irizarry, R.A., et al. NAR (2003)
 \url{http://www.biostat.jhsph.edu/~ririzarr/papers/index.html}}
